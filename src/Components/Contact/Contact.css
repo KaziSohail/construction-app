@@ -1,0 +1,51 @@
+.contact{
+    height: 60vh;
+    background-image: url("/src/assets/images/contact-bg.jpg");
+
+}
+.contact-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 1rem;
+   
+}
+.contact-heading>h1 {
+    color: white;
+
+    }
+.contact-heading>hr{
+    width: 8rem;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+input{
+    padding:0.3rem 3rem;
+    outline: none;
+    border-radius: .3rem;
+}
+.f-name,.email{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.message-box{
+    padding: .5rem;
+    width: 33.5rem;
+    height: 7rem;
+}
+.btn{
+    margin-left: -16.5rem;
+    padding: .2rem .5rem;
+    border-radius: 1rem;
+    background-color: gold;
+    cursor: pointer;
+  
+}

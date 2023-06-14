@@ -1,0 +1,52 @@
+
+.hero{
+    width: 100vw;
+    position: relative;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: .8rem 0rem;
+}
+.hero-left{
+    margin-left: 10rem;
+}
+.hero-heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.right-menu{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 3rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    
+}
+
+.right-menu>li:hover{
+    cursor: pointer;
+    background-color: gold;
+    border-radius: 20px;
+}
+ul >li{
+    padding: .3rem .6rem;
+
+    }
+
+.hero-Img{
+    width: 100vw;
+   height: 91vh;
+   overflow: hidden;
+}
+
+.logo-img{
+    position: absolute;
+    top: 2rem;
+    left:  5.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+}
+

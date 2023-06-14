@@ -1,0 +1,59 @@
+.founders{
+    height: 60vh;
+    background-color: black;
+}
+
+.f-heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.f-heading>h1{
+    font-family: "helvetica";
+    font-weight: normal;
+padding-top:2rem ;
+color: gold;
+}
+
+.f-heading>hr{
+    margin-bottom: 1.5rem;
+    width: 6rem;
+}
+
+.f-one{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.f-one>img{
+    width: 9rem;
+    height: 13.5rem;
+    object-fit: cover;
+}
+.f-details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 22rem;
+    background-color: rgb(31, 31, 31);
+    margin-left: .4rem;
+}
+
+.f1-name{
+    margin-top: .3rem;
+    color: gold;
+  
+}
+.f1-details{
+    color: white;
+    line-height: 1.5rem;
+    padding: 0.2rem .5rem;
+}
+
+.f-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

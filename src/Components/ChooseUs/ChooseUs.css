@@ -1,0 +1,68 @@
+.chooseUs{
+height: 100vh;
+background-color: black;
+}
+
+.chooseUs-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 3rem;
+   
+}
+.chooseUs-heading>h1{
+  color: gold;
+  font-family: "helvetica";
+  font-weight: 100;
+}
+.chooseUs-heading>hr{
+    width: 8rem;
+    margin-top: .5rem;
+}
+.choose-Container{
+    display: flex;
+    margin-top: 5rem;
+    color: white;
+}
+
+.choose-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    
+}
+.image>img{
+width: 5rem;
+border-radius: 50%;
+}
+
+.details>h4{
+    margin-top: .5rem;
+color: gold;
+}
+.details>p{
+width: 28rem;
+font-size: .8rem;
+margin-top: .5rem;
+line-height: 1rem;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+
+.choose-right{
+    flex: 1;
+}
+
+.choose-right>img{
+    margin-left: 15rem;
+    width: 20rem;
+    height: 25rem;
+    opacity: 70%;
+}

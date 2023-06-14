@@ -1,0 +1,58 @@
+.about{
+    height: 100vh;
+    background-image: url("D:/Construction App/Counstruction-App/src/assets/images/about1-bg.jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+   
+}
+
+
+.about-right{
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.about-left{
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.about-left>img{
+    margin-top: 5rem;
+    margin-left: 24rem;
+    width: 20rem;
+ 
+}
+
+.about-right>h1{
+    color: rgb(252, 248, 0);
+    font-family: "helvetica";
+    font-weight: normal;
+    margin-left: 1rem;
+}
+.about-right>h3{
+    color: white;
+    line-height: 20px;
+    margin-right: 15rem;
+    margin-bottom: .7rem;
+    font-family: "helvetica";
+    font-weight: normal;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.about-right>p{
+    width: 30rem;
+    color: white;
+    line-height: 20px;
+    margin-right: 15rem;
+    margin-left: 1rem;
+}
+
+hr{
+    margin-bottom: .8rem;
+    width: 3rem;
+    border: 2px solid gold;
+    margin-left: 1rem;
+}

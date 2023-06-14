@@ -1,0 +1,31 @@
+.footer{
+    height: 40vh;
+    background-color:rgb(22, 22, 22) ;
+}
+
+.footer-container{
+    display: flex;
+align-items: center;
+justify-content: space-evenly;
+text-align: center;
+
+}
+    
+.footer-details>img{
+    width: 4rem;
+
+}
+.footer-details>h4{
+    color: white;
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+.footer-details>p{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    font-weight:300;
+    margin-top: .5rem;
+   
+}

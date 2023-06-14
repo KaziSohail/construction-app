@@ -1,0 +1,33 @@
+.client{
+    height: 50vh;
+    background-color:rgb(22, 22, 22) ;
+}
+
+.client-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 3rem;
+   
+}
+
+.client-heading>h1 {
+color: gold;
+font-family: "helvetica";
+font-weight: 100;
+}
+.client-heading>hr{
+    width: 8rem;
+    margin-top: .5rem;
+    margin-bottom: 3rem;
+}
+
+.client-img>img{
+    width: 5rem;
+}
+.client-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
